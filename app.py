@@ -14,3 +14,8 @@ if cont == 2:
     print('El numero: ', numero, ' es primo')
 else:
     print('El numero: ', numero, ' NO es primo') 
+
+if cont == 2:
+    print('El numero: ', numero, ' es primo')
+else:
+    print('El numero: ', numero, ' NO es primo') 
