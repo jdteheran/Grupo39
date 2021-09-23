@@ -1,3 +1,101 @@
-.item {
-    font-size: 40px;
+footer {
+    background: #dd4f24;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer p .guion:after {
+    content: " - ";
+}
+
+footer p .guion:before {
+    content: " - ";
+}
+
+footer p {
+    display: grid;
+}
+
+header {
+    background: #444;
+    color: white;
+    display: grid;
+}
+
+header .encabezado {
+    -webkit-box-shadow: 0px 3px 0px 1px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 3px 0px 1px rgba(0,0,0,0.21);
+    box-shadow: 0px 3px 0px 1px rgba(0,0,0,0.21);
+    z-index: 2;
+    padding-bottom: 8px;
+}
+
+header .encabezado .presentacion .logo  {
+    border-right: 1px solid #22bce0;
+    padding-right: 15px;
+}
+
+header .encabezado .presentacion .logo img {
+    width: 80px;
+}
+
+header .encabezado .accion .avatar img {
+    width: 80px;
+}
+
+header .bienvenida h3 {
+    margin: 0px 80px 0px 10px;
+    font-size: 25px;
+}
+
+header .bienvenida p {
+    margin: 0px 80px 0px 10px;
+    color: #22bce0;
+}
+
+header .bienvenida .tamano {
+    margin: 0px 80px 0px 10px;
+    color: #dd4f24;
+}
+
+header .presentacion {
+    display: flex;
+    float: left;
+}
+
+header .logo, header .bienvenida {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header .accion {
+    display: flex;
+    float: right;
+}
+
+header .accion .avatar {
+    display: flex;
+}
+
+header nav {
+    background: #22bce0;
+    padding: 8px 0px 8px 0px;
+}
+
+header nav .lista {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+header nav .lista li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav .lista li {
+    margin-left: 20px;
 }
